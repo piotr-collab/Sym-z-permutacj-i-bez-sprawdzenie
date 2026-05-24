@@ -1,0 +1,34 @@
+###Zadanie z RSA.
+
+Niech komórka Monte Carlo będzie 100x100. 
+Zakładamy hard boundary condition czyli ściany komórki są neoprzenikalne. 
+Na tej płaszczyźnie adsorbujemy dimery czyli obiekty składające się z 2 kartezjańskich
+punktów kratowych. 
+Losowy jest wybór miejsca umieszczenia dimeru,
+Losowo wybieramy orientację dimeru. 
+Szukamy:
+1. progu maksymalnego zapełnienia powierzchni Cj (jamming threshold)
+2. progu perkolacji Cp
+
+Pryjmij przebieg 500
+
+nie wymyślaj i nie podawaj nieprawidłowych wyników
+
+zrób wykresy: Cp/d, Cj/d, Cp/L, Cj/L, Cp/Cj
+
+#Zadanie ma być wykonane w dwóch częściach:
+1. część - przywyborze puktów nie stosuj permutacji
+2. część - przy wyborze punktów stosuj permutacje
+
+# Zastosuj po 500 pełnych przebiegów dla każdej metody czyli bez permutacji i z permutacją
+
+# zrób opis każdej cześći podając wyniki w csv oraz w tabeli wyników, wykresy, rysunki graficzne perlokacji i jammingu w dwóch kolorach, ktore rozróżniają dimery poziome i pionowe
+
+# jako trzecią opracę opracuj porównanie wyników obu części, zaproponuj wytłumaczenie dlaczego wyniki są takie same lub dlaczego są inne
+
+# w osobnej części pracy tej z permutacją wytłumacz co top jest permutacja na przykładzie tej symulacji
+
+# prowadź dziennik
+# zapisuj wszystko w github pod adresem: git@github.com:piotr-collab/Sym-z-permutacj-i-bez---sprawdzenie.git
+
+# zaproponuj czy coś jeszcze by można zrobić żeby porównanie było skuteczne
